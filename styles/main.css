@@ -1,0 +1,21 @@
+a {
+    text-decoration: none;
+    color: #CBA135;
+}
+li {
+    list-style-type: none;
+}
+nav {
+    background-color: F9F9F9;
+}
+li {
+    margin-top: 1.5em;
+}
+nav img {
+    width: 100px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
