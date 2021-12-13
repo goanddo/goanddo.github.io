@@ -2,17 +2,44 @@ a {
     text-decoration: none;
     color: #CBA135;
 }
+article {
+    width: 600px;
+    justify-content: center;
+    text-align: center;
+}
+section {
+    font-family: 'Playfair Display', serif; 
+}
+img {
+    max-width: 400px;
+}
+#img-description {
+    font-size: 8pt;
+}
+main #journal section {
+    font-family: 'Handlee', cursive;
+}
 li {
     list-style-type: none;
 }
+
 nav {
     background-color: F9F9F9;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 18pt;
 }
 li {
-    margin-top: 1.5em;
+    margin-top: 1em;
 }
 nav img {
     width: 100px;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
 }
 ul {
     display: flex;
